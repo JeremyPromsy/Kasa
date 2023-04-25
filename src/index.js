@@ -10,6 +10,7 @@ import Error404 from './pages/404'
 import APropos from './pages/APropos'
 import Fiche from './pages/Fiche'
 
+import "./index.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
