@@ -1,12 +1,12 @@
 import React from "react";
-import Nav from "../components/Nav";
+import Banner from "../components/Banner";
 import bannerHome from "../assets/BackgroundAccueil.png";
 import "../styles/home.css"
 
 function Home () {
     return (
         <div className="home">
-            <Nav
+            <Banner
             imageHome = {bannerHome}
             />
             <h1>Chez vous, partout et ailleurs</h1>
