@@ -5,9 +5,9 @@ import "../styles/nav.css"
 
 function Navbar() {
     return (
-        <div className="navbar">
+        <div className="nav">
             <div className="logo">
-                <img className="logo-img" src= {logoNav} alt ="logo" /> 
+                <img className="logo-img" src= {logoNav} alt ="logo Kasa" /> 
             </div>
             <div className="nav-links">
                 <NavLink
