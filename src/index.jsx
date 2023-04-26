@@ -21,7 +21,7 @@ root.render(
       <Route path = "/" element ={<Home />} />
       <Route path = "/apropos" element ={<APropos />} />
       <Route path = "/logement" element ={<Fiche />} />
-      <Route path = "/*" element ={<Error404 />} /> 
+      <Route path = "*" element ={<Error404 />} /> 
     </Routes>
     <Footer />
     </BrowserRouter>
