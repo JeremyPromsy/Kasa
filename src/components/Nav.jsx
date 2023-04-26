@@ -10,16 +10,8 @@ function Navbar() {
                 <img className="logo-img" src= {logoNav} alt ="logo Kasa" /> 
             </div>
             <div className="nav-links">
-                <NavLink
-                    to="/"
-                >
-                    Accueil
-                </NavLink>
-                <NavLink
-                    to="/apropos"
-                >
-                    A propos
-                </NavLink>
+                <NavLink to="/">Accueil</NavLink>
+                <NavLink to="/apropos">A propos</NavLink>
             </div>
         </div>
     )

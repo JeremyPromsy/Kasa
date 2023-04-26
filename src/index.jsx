@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Nav from './components/Nav'
-import Footer from './components/Footer'
+/*import Footer from './components/Footer'*/
 
 import Home from './pages/Home'
 import Error404 from './pages/404'
-import APropos from './pages/APropos'
-import Fiche from './pages/Fiche'
+/*import Fiche from './pages/Fiche'
+import APropos from './pages/APropos'*/
 
 import "./index.css"
 
@@ -19,11 +19,10 @@ root.render(
     <Nav />
     <Routes>
       <Route path = "/" element ={<Home />} />
-      <Route path = "/apropos" element ={<APropos />} />
-      <Route path = "/logement" element ={<Fiche />} />
+
       <Route path = "*" element ={<Error404 />} /> 
     </Routes>
-    <Footer />
+
     </BrowserRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
