@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Nav from './components/Nav'
-/*import Footer from './components/Footer'*/
+import Footer from './components/Footer'
 
 import Home from './pages/Home'
 import Error404 from './pages/404'
@@ -22,7 +22,7 @@ root.render(
 
       <Route path = "*" element ={<Error404 />} /> 
     </Routes>
-
+    <Footer />
     </BrowserRouter>
   </React.StrictMode>,
 );
