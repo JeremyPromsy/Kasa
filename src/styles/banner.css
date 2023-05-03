@@ -14,11 +14,13 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    z-index: 1;
+    filter: brightness(70%);
 }
 
 .bannerText{
     color: white;
-    z-index: 1;
+    z-index: 2;
     display: flex;
     align-items: center;
 }
