@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    padding: 10px 80px;
+    width: auto;
+}
+
+.logo {
+    width: 100px;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #FF6060;
+    padding-left: 30px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 968px) {
+    .nav {
+      margin: 10px 35px;
+
+    }
+    .nav-links {
+      text-transform: uppercase;
+      font-size: 12px;
+      padding-top: 10px;
+    }
+    .logo img {
+      width: 100px;
+      
+  }
+}
