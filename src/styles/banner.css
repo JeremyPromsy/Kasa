@@ -1,0 +1,24 @@
+.banner {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.bannerImage{
+    border-radius: 25px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bannerText{
+    color: white;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
