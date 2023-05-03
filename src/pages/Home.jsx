@@ -6,10 +6,7 @@ import "../styles/home.css"
 function Home () {
     return (
         <div className="home">
-             <div>
-                <Banner/>
-                <h1>Chez vous, partout et ailleurs</h1>
-            </div>
+            <Banner/>
             <Card/>
         </div>
     )
