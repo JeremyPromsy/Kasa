@@ -1,13 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/404.css"
 
 
-function Error() {
+function Page404 () {
     return (
-        <div>
-            <h1>Oups 🙈 Cette page n'existe pas</h1>
+        <div className="p404">
+            <div className="page404">
+                <h1>404</h1>
+                    <p>Oups! La page que vous demandez n'existe pas.</p>
+            </div>
+            <Link to ="/" className="link">
+                Retournez sur la page d'accueil
+            </Link>
         </div>
     )
 }
- 
-export default Error
+
+export default Page404;
