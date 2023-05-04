@@ -26,7 +26,7 @@
     font-size: 48px;
 }
 
-@media (max-width: 968px) {
+@media (max-width: 375px) {
     .bannerText{
         font-size: 24px;
     }

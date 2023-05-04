@@ -24,7 +24,7 @@
     text-decoration: underline;
 }
 
-@media (max-width: 968px) {
+@media (max-width: 375px) {
     .nav {
       margin: 10px 35px;
 

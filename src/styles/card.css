@@ -52,7 +52,7 @@
 }
 
 
-@media (max-width: 968px) {
+@media (max-width: 375px) {
     .annonces {
     display: flex;
     flex-direction: column;
