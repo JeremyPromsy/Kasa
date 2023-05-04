@@ -1,0 +1,58 @@
+.annonces {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f6f6f6;
+    padding: 5px;
+    border-radius: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin: 20px;
+}
+
+.cardContenu::after{
+    content: '';
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7));
+    border-radius: 15px;
+}
+
+.cardContenu img {
+    border-radius: 15px;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    position: relative;
+}
+
+.cardContenu p {
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    color: white;
+    z-index: 3;
+}
+
+
+@media (max-width: 968px) {
+    .annonces {
+    display: flex;
+    flex-direction: column;
+    }
+}

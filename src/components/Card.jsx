@@ -7,12 +7,11 @@ function Card () {
     return (
         <div className="annonces">
             {Annonces.map ((element) => (
-                <Link to = { `logement/${element.id}`} 
-                    key = {element.id} 
-                    className="card"
-                >
+                <Link to = { `logement/${element.id}`} key = {element.id} className="card">
+                    <div className="cardContenu">
                     <img src = { element.cover } alt = { element.title } />
                     <p> { element.title }</p>
+                    </div>
                 </Link>
             ))}
         </div> 
