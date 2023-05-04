@@ -25,3 +25,9 @@
     align-items: center;
     font-size: 48px;
 }
+
+@media (max-width: 968px) {
+    .bannerText{
+        font-size: 24px;
+    }
+}
