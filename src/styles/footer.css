@@ -21,3 +21,15 @@
     text-align: center;
     color: white;
 }
+
+@media (max-width: 375px) {
+    .footer {
+        height: 100px;
+    }    
+    .logofooter {
+        width: 90px;
+    }
+    .copyright {
+        font-size: 8px;
+    }
+}

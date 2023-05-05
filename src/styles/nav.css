@@ -7,10 +7,14 @@
     width: auto;
 }
 
-.logo {
-    width: 100px;
+.logo-img{
+    width: 150px;
     height: 100%;
     margin-top: 10px;
+}
+
+.nav-links {
+  margin-top: 15px;
 }
 
 .nav-links a {
@@ -26,18 +30,21 @@
 
 @media (max-width: 375px) {
     .nav {
-      margin: 10px 35px;
-
+      margin: 10px 10px;
+      padding: 0px 0px;
     }
+    .logo img {
+      width: 100px;
+      margin-top: 5px;
+  }
     .nav-links {
       text-transform: uppercase;
       font-size: 12px;
       padding-top: 10px;
+      padding-left: 10px;
+      margin-top: 0;
     }
     .nav-links a {
       font-size: 12px;
-  }
-    .logo img {
-      width: 100px;
   }
 }
