@@ -1,0 +1,34 @@
+.container {
+    height: 47px;
+    background-color: #ff6060;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin: 30px 150px;
+    padding:10px 0px;
+}
+
+.container h3 {
+    font-size: 24px;
+    padding-left:20px;
+}
+
+.container img {
+    font-size: 24px;
+    padding-right:30px;
+}
+
+.collapseFermé p {
+    background-color: #f6f6f6;
+    border-bottom-right-radius: 10px;
+    color: #ff6060;
+    margin-top: -32px;
+    margin-left: 150px; 
+    margin-right: 150px;
+    padding: 30px 20px 20px 30px; 
+    font-size: 18px;
+  }
+
+
