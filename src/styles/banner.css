@@ -37,4 +37,8 @@
         margin-right: 10px;
         height: 111px;
     }
+
+    .bannerImage{
+        border-radius: 10px;
+    }
 }

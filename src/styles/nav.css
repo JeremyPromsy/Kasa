@@ -41,10 +41,11 @@
       text-transform: uppercase;
       font-size: 12px;
       padding-top: 10px;
-      padding-left: 10px;
+      padding-left: 0px;
       margin-top: 0;
     }
     .nav-links a {
       font-size: 12px;
+      padding-left: 10px;
   }
 }
