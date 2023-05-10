@@ -28,11 +28,13 @@
 
 @media (max-width: 375px) {
     .bannerText{
-        font-size: 24px;
+        font-size: 20px;
+        padding:10px;
     }
     .banner {
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
+        height: 111px;
     }
 }

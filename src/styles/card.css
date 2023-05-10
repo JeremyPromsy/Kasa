@@ -1,3 +1,4 @@
+@media (min-width: 376px) {
 .annonces {
     display: flex;
     flex-wrap: wrap;
@@ -50,11 +51,49 @@
     font-size: 18px;
     z-index: 3;
 }
-
+}
 
 @media (max-width: 375px) {
     .annonces {
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card {
+        display: flex;
+        position: relative;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .cardContenu::after{
+        content: '';
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 98.5%;
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.7));
+        border-radius: 10px;
+    }
+    
+    
+    .cardContenu img {
+        border-radius: 10px;
+        height: 245px;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    .cardContenu p {
+        position: absolute;
+        left: 10px;
+        bottom: 0px;
+        color: white;
+        font-size: 18px;
+        z-index: 3;
     }
 }
