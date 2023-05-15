@@ -30,6 +30,7 @@ function Description ({
                     <Collapse 
                         title = {"Equipements"}
                         content = {equipments} />
+
                 </section>
             </div>
         </div>
