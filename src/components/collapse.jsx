@@ -26,13 +26,12 @@ function Collapse ( { title, content, open } ) {
 function affichageValeurs (texte) {
     return (
         <ul>
-            {texte.map((valeurs) => (
-                <li key= {valeurs}> 
+            {texte.map((equipment) => (
+                <li key= {equipment}> {equipment}
                 </li>
             ))}
         </ul> 
     )
 }
-
 
 export default Collapse ;
