@@ -11,6 +11,19 @@
     z-index: 1;
 }
 
+.collapseFermé ul {
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    color: #ff6060;
+    margin-top: -42px;
+    margin-left: 150px; 
+    margin-right: 150px;
+    padding: 30px 20px 20px 30px; 
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+}
+
 .container {
     height: 47px;
     background-color: #ff6060;
@@ -34,6 +47,7 @@
     height: 13.7px;
     padding-right:30px;
 }
+
 
 
 @media (max-width: 375px) {

@@ -12,7 +12,7 @@ function Description ({
             <div className="info1"> 
                 <div className="card1">
                     <h1 className="title">{title}</h1>
-                    <p className="locate">{location}</p>
+                    <p className="location">{location}</p>
                     <Tag tags={tags} />
                 </div>
                 <div className="card2">
@@ -20,13 +20,13 @@ function Description ({
                     <Rate rate = {rating} />
                 </div>
             </div>
-            <div className="descEquip">
-                <section className="desc">
+            <div className="descEquipement">
+                <section className="description">
                     <Collapse 
                         title = {"Description"} 
                         content = {description} />
                 </section>
-                <section className="equip">
+                <section className="equipement">
                     <Collapse 
                         title = {"Equipements"}
                         content = {equipments} />
