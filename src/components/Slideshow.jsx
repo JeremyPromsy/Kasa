@@ -17,10 +17,10 @@ function Slideshow({ pictures }) {
     return (
         <section id="gallery"> 
             {pictures.length > 1 && (
-                <img src={flecheDroite} alt="right arrow" onClick={nextSlide}/>
+                <img src={flecheDroite} alt="right arrow" className="arrow-right" onClick={nextSlide}/>
             )}
             {pictures.length > 1 && (
-                <img src={flecheGauche} alt="left arrow" onClick={prevSlide}
+                <img src={flecheGauche} alt="left arrow" className="arrow-left" onClick={prevSlide}
                 />
             )}
 
