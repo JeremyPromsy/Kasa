@@ -1,3 +1,9 @@
 .location{
     margin: 20px 80px;
 }
+
+@media (max-width: 375px) {
+    .location{
+        margin: 10px 10px;
+    }
+}

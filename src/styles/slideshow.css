@@ -26,4 +26,26 @@
     height: 415px;
     border-radius: 25px;
     object-fit: cover;
-  }
+}
+
+@media (max-width: 375px) {
+    .gallery-image{
+        height: 255px;
+    }
+
+    .arrow-left {
+        left: 5%;
+    }
+      
+    .arrow-right {
+        right: 5%;
+    }
+
+    .arrow-left, .arrow-right {
+        position: absolute;
+        min-width: 10px;
+        max-width: 20px;
+        top: 25%;
+        z-index: 1;
+    }
+}
