@@ -19,12 +19,25 @@
     border-radius: 10px;
     background-color: #ff6060;
     color: white;
+    white-space: nowrap;
 }
 
 @media (max-width: 375px) {
     .tag-box {
         font-size: 10px;
         margin-top: 5px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        margin-right: 5px;
+        padding: 0px 10px;
+        margin-top: 5px;
+        height: 18px;
+        border-radius: 5px;
     }
 
 }

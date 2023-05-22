@@ -18,8 +18,13 @@
 }
 
 @media (max-width: 375px) {
+    .host {
+        margin-top: 0px;
+    }
+    
     .name {
         font-size: 12px;
+        max-width: 65px;
     }
     
     .picture {

@@ -65,11 +65,13 @@
 
     .collapseFermé p {
         margin-top: -15px;
+        padding-top: 30px;
         font-size: 12px;
     }
 
     .collapseFermé ul{
         font-size: 12px;
+        padding-top: 30px;
         margin-top: -15px;
     }
 }

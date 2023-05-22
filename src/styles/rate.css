@@ -12,4 +12,9 @@
     .etoile {
         height: 13px;
     }
+
+    .etoiles {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }
