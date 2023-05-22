@@ -20,7 +20,7 @@ function Logement() {
     },);
 
     return (
-        <div className="location">
+        <div className="logement">
             {appartements.map(
         ({id, title, pictures, description, host, rating, location, equipments, tags,
         }) => (

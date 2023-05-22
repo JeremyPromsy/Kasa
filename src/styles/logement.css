@@ -1,9 +1,9 @@
-.location{
+.logement{
     margin: 20px 80px;
 }
 
 @media (max-width: 375px) {
-    .location{
+    .logement{
         margin: 10px 10px;
     }
 }
