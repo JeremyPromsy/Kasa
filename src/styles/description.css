@@ -1,3 +1,38 @@
+.info1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.descEquip {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.description .equipement {
+    width: 45%;
+}
+
+.title {
+    font-size: 36px;
+    color: #FF6060;
+    margin: 10px 0px;
+}
+
 .location {
+    font-size: 18px;
+    color: #FF6060;
+    margin: 10px 0px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+@media (max-width: 375px) {
     
 }

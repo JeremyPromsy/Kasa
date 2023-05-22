@@ -1,0 +1,14 @@
+.etoiles {
+    margin-top: 10px;
+}
+
+.etoile {
+    margin: 0px 5px;
+    height: 24px;
+}
+
+@media (max-width: 375px) {
+    .etoile {
+        height: 13px;
+    }
+}

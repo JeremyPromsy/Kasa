@@ -13,7 +13,7 @@ function Rate () {
     const etoiles = [1, 2, 3, 4, 5];
 
     return (
-        <div className="etoile">
+        <div className="etoiles">
         {etoileClassment.map((etoile, index) =>
             etoiles.map((etoiles) =>
                 etoile.rating <= etoiles - 1 ? (
