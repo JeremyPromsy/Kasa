@@ -3,17 +3,6 @@
     justify-content: space-between;
 }
 
-.descEquip {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.description .equipement {
-    width: 45%;
-}
-
 .title {
     font-size: 36px;
     color: #FF6060;
@@ -26,13 +15,57 @@
     margin: 10px 0px;
 }
 
+.card1 {
+    max-width: 80%;
+}
+
 .card2 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    justify-content:space-between;
+    max-width: 175px;
+}
+
+.description p {
+    display: flex;
+    align-items: center;
+    height: 249px;
+    line-height: 25.67px;
+}
+
+.equipement ul {
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+    height: 249px;
+    line-height: 25.67px;
+} 
+
+@media (min-width: 376px) {
+    .descEquipement {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    .description {
+        width: 48%;
+    }
+    
+    .equipement {
+        width: 48%;
+    } 
 }
 
 @media (max-width: 375px) {
+    .description p {
+        line-height: 17.11px;
+        height: 143.32px;
+    }
     
+    .equipement ul {
+        line-height: 17.11px;
+        height: 143.32px;
+    } 
 }
