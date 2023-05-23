@@ -10,6 +10,7 @@
     font-size: 18px;
     color: #FF6060;
     margin-right: 10px;
+    max-width: 90px;
 }
 
 .picture {
@@ -24,7 +25,7 @@
     
     .name {
         font-size: 12px;
-        max-width: 65px;
+        max-width: 60px;
     }
     
     .picture {
