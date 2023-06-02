@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 
 import Nav from './components/Nav'
-import Footer from './components/Foot'
+import Footer from './components/Footer'
 
 import Home from './pages/Home'
 import Error404 from './pages/404'
