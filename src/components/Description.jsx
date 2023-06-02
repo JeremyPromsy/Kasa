@@ -1,4 +1,4 @@
-import Collapse from "./Collaps";
+import Collapse from "./Collapse";
 import Tag from "./Tag";
 import Host from "./Host";
 import Rate from "./Rate";
