@@ -34,4 +34,5 @@ function affichageValeurs (texte) {
     )
 }
 
+
 export default Collapse ;

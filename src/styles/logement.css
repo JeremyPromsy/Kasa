@@ -1,9 +1,11 @@
 .logement{
-    margin: 20px 80px;
+    padding: 10px 80px;
+    max-width: 1400px;
+    margin: auto;
 }
 
 @media (max-width: 375px) {
     .logement{
-        margin: 10px 10px;
+        padding: 10px 10px;
     }
 }
